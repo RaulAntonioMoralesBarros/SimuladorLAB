@@ -17,4 +17,4 @@ Route::get('/', function () {
     return view('login');
 });
 
-Route::post('/acceso', 'AccesoController@ingresar')->name('acceso.ingresar');
+Route::post('/Antes_de_empezar', 'AccesoController@ingresar')->name('acceso.ingresar');
