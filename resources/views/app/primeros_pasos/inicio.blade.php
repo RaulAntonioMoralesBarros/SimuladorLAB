@@ -128,6 +128,6 @@
 @endsection
 
 @section('scripts_propios')
+<script src="{{ URL::asset('assets/js/pages/features/miscellaneous/dual-listbox.js?v=7.0.6') }}"></script>
 
-    <script src="{{ URL::asset('assets/js/pages/features/miscellaneous/dual-listbox.js?v=7.0.6') }}"></script>
 @endsection
