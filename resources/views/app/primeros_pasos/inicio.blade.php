@@ -7,7 +7,7 @@
 @section('content')
 
     <div class="content  d-flex flex-column flex-column-fluid" id="kt_content">
-        {{-- Titulo header --}}
+        <!--begin::Subheader-->
         <div class="subheader py-3 py-lg-8  subheader-transparent " id="kt_subheader">
             <div class=" container  d-flex align-items-center justify-content-between flex-wrap flex-sm-nowrap">
                 <div class="d-flex align-items-center flex-wrap mr-1">
@@ -19,11 +19,12 @@
                 </div>
             </div>
         </div>
-        {{-- /Titulo header --}}
+        <!--end::Subheader-->
 
+        <!--begin::Entry-->
         <div class="d-flex flex-column-fluid">
+            <!--begin::Container-->
             <div class=" container ">
-
                 {{-- Información de contenido --}}
                 <div class="alert alert-custom alert-white alert-shadow fade show gutter-b" role="alert">
                     <div class="alert-icon">
@@ -53,18 +54,24 @@
                 </div>
                 {{-- /Información de contenido --}}
 
-                {{-- Tabla de datos cursados --}}
+                <!--begin: Row-->
                 <div class="row">
                     <div class="col-lg-8">
-                        <div class="card card-custom card-stretch gutter-b example example-compact ">
+                        <div class="card card-custom card-stretch example example-compact">
                             <div class="card-header">
                                 <div class="card-title">
                                     <h3 class="card-label">
                                         Selecciona tus ramos cursados
                                     </h3>
                                 </div>
+                                <div class="card-toolbar">
+                                    <div class="example-tools justify-content-center">
+                                        <span class="example-toggle" data-toggle="tooltip" title="View code"></span>
+                                        <span class="example-copy" data-toggle="tooltip" title="Copy code"></span>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="card-body ">
+                            <div class="card-body">
                                 <select id="kt_dual_listbox_1" class="dual-listbox" multiple>
                                     <option value="1">Gestión comercial y tributaria</option>
                                     <option value="2">Procesos administrativos</option>
@@ -79,7 +86,7 @@
                     </div>
 
                     <div class="col-lg-4">
-                        <div class="card card-custom card-stretch gutter-b example example-compact ">
+                        <div class="card card-custom card-stretch gutter-b ">
                             <div class="card-header">
                                 <div class="card-title">
                                     <h3 class="card-label">
@@ -113,13 +120,14 @@
                     </div>
 
                 </div>
-                {{-- /Tabla de datos cursados --}}
-
             </div>
+            <!--end::Container-->
         </div>
+        <!--end::Entry-->
     </div>
 @endsection
 
 @section('scripts_propios')
-    <script src="{{ URL::asset('../js/pages/features/miscellaneous/dual-listbox.js?v=7.0.6') }}"></script>
+
+    <script src="{{ URL::asset('assets/js/pages/features/miscellaneous/dual-listbox.js?v=7.0.6') }}"></script>
 @endsection
