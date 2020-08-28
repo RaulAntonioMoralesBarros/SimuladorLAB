@@ -14,9 +14,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('login');
 });
 
 Route::get('/Agregar_usuario', function () {
-    return view('plantilla.app');
+    return view('app.docente.agregarUsuario');
 });
+
+Route::get('/Email', function () {
+    return view('app.alumno.email');
+});
+Route::post('/Antes_de_empezar', 'AccesoController@ingresar')->name('acceso.ingresar');
