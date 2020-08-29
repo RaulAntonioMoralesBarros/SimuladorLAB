@@ -30,10 +30,10 @@ var KTAddUser = function () {
 					KTUtil.scrollTop();
 				} else {
 					Swal.fire({
-		                text: "Sorry, looks like there are some errors detected, please try again.",
+		                text: "Falta completar datos requeridos.",
 		                icon: "error",
 		                buttonsStyling: false,
-		                confirmButtonText: "Ok, got it!",
+		                confirmButtonText: "Siguiente",
 						customClass: {
 							confirmButton: "btn font-weight-bold btn-light"
 						}
@@ -58,35 +58,31 @@ var KTAddUser = function () {
 			_formEl,
 			{
 				fields: {
-					firstname: {
+					nombre: {
 						validators: {
 							notEmpty: {
-								message: 'First Name is required'
+								message: 'El nombre es requerido'
 							}
 						}
 					},
-					lastname: {
+					apellido: {
 						validators: {
 							notEmpty: {
-								message: 'Last Name is required'
+								message: 'El apellido es requerido'
 							}
 						}
 					},
-					companyname: {
+					rut: {
 						validators: {
 							notEmpty: {
-								message: 'Company Name is required'
+								message: 'El rut es requerido'
 							}
 						}
 					},
-					phone: {
+					contraseña: {
 						validators: {
 							notEmpty: {
-								message: 'Phone is required'
-							},
-							phone: {
-								country: 'US',
-								message: 'The value is not a valid US phone number. (e.g 5554443333)'
+								message: 'La contraseña es requerido'
 							}
 						}
 					},
@@ -100,10 +96,10 @@ var KTAddUser = function () {
 							}
 						}
 					},
-					companywebsite: {
+					establecimiento: {
 						validators: {
 							notEmpty: {
-								message: 'Website URL is required'
+								message: 'El establecimiento es requerido'
 							}
 						}
 					}

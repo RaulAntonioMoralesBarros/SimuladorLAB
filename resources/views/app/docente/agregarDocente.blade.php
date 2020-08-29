@@ -1,7 +1,7 @@
 @extends('app.layouts.app')
 
 @section('title')
-    Agregar nuevo usuario
+    Agregar nuevo docente
 @endsection
 
 @section('css_propios')
@@ -34,7 +34,7 @@
                                             Perfil
                                             </div>
                                             <div class="wizard-desc">
-                                            Información personal del usuario
+                                            Información personal del docente
                                             </div>
                                         </div>
                                     </div>
@@ -76,7 +76,7 @@
                                         </div>
                                         <div class="wizard-label">
                                             <div class="wizard-title">
-                                            Submission
+                                            Verificacion de la informacion
                                             </div>
                                             <div class="wizard-desc">
                                             Revisar y enviar
@@ -100,7 +100,7 @@
                                                 <div class="col-xl-9">
                                                     <!--begin::Wizard Step 1-->
                                                     <div class="my-5 step" data-wizard-type="step-content" data-wizard-state="current">
-                                                        <h5 class="text-dark font-weight-bold mb-10">Detalles del perfil del usuario:</h5>
+                                                        <h5 class="text-dark font-weight-bold mb-10">Detalles del perfil del docente:</h5>
                                                         <!--begin::Group-->
                                                         <div class="form-group row">
                                                             <label class="col-xl-3 col-lg-3 col-form-label text-left">Avatar</label>
@@ -149,7 +149,7 @@
                                                             <label class="col-xl-3 col-lg-3 col-form-label">Contraseña</label>
                                                             <div class="col-lg-9 col-xl-9">
                                                                 <div class="input-group input-group-solid input-group-lg">
-                                                                    <input type="password" class="form-control form-control-solid form-control-lg" name="contraseña"  value=""/>
+                                                                    <input type="password" class="form-control form-control-solid form-control-lg" name="contraseña"  value=""/ required="required">
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -234,126 +234,9 @@
                                                        
                                                     </div>
                                                     <!--end::Wizard Step 1-->
-                                                        {{--
-                                                    <!--begin::Wizard Step 2-->
-                                                    <div class="my-5 step" data-wizard-type="step-content">
-                                                        <h5 class="text-dark font-weight-bold mb-10 mt-5">User's Account Details</h5>
-                            
+     
 
-                                                        <h5 class="text-dark font-weight-bold mb-10">User's Account Settings</h5>
-
-                                                        <!--begin::Group-->
-                                                        <div class="form-group row">
-                                                            <label class="col-form-label col-xl-3 col-lg-3">Login verification</label>
-                                                            <div class="col-xl-9 col-lg-9">
-                                                                <button type="button" class="btn btn-light-primary font-weight-bold btn-sm">Setup login verification</button>
-                                                                <div class="form-text text-muted mt-3">
-                                                                    After you log in, you will be asked for additional information to confirm your identity and protect your account from being compromised.
-                                                                    <a href="#">Learn more</a>.
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <!--end::Group-->
-                                                        <!--begin::Group-->
-                                                        <div class="form-group row">
-                                                            <label class="col-form-label col-xl-3 col-lg-3">Password reset verification</label>
-                                                            <div class="col-xl-9 col-lg-9">
-                                                                <div class="checkbox-inline">
-                                                                    <label class="checkbox mb-2">
-                                                                        <input type="checkbox"/>
-                                                                        <span></span>
-                                                                        Require personal information to reset your password.
-                                                                    </label>
-                                                                </div>
-                                                                <div class="form-text text-muted">
-                                                                    For extra security, this requires you to confirm your email or phone number when you reset your password.
-                                                                    <a href="#" class="font-weight-bold">Learn more</a>.
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <!--end::Group-->
-                                                        <!--begin::Group-->
-                                                        <div class="form-group row mt-10">
-                                                            <label class="col-xl-3 col-lg-3"></label>
-                                                            <div class="col-xl-9 col-lg-9">
-                                                                <button type="button" class="btn btn-light-danger font-weight-bold btn-sm">Deactivate your account ?</button>
-                                                            </div>
-                                                        </div>
-                                                        <!--end::Group-->
-                                                    </div>
-                                                    <!--end::Wizard Step 2-->
-
-                                                    <!--begin::Wizard Step 3-->
-                                                    <div class="my-5 step" data-wizard-type="step-content">
-                                                        <h5 class="mb-10 font-weight-bold text-dark">Setup Your Address</h5>
-
-                                                        <!--begin::Group-->
-                                                        <div class="form-group">
-                                                            <label>Address Line 1</label>
-                                                            <input type="text" class="form-control form-control-solid form-control-lg" name="address1" placeholder="Address Line 1" value="Address Line 1" />
-                                                            <span class="form-text text-muted">Please enter your Address.</span>
-                                                        </div>
-                                                        <!--end::Group-->
-                                                        <!--begin::Group-->
-                                                        <div class="form-group">
-                                                            <label>Address Line 2</label>
-                                                            <input type="text" class="form-control form-control-solid form-control-lg" name="address2" placeholder="Address Line 2" value="Address Line 2"/>
-                                                            <span class="form-text text-muted">Please enter your Address.</span>
-                                                        </div>
-
-                                                        <!--begin::Row-->
-                                                        <div class="row">
-                                                            <div class="col-xl-6">
-                                                                <!--begin::Group-->
-                                                                <div class="form-group">
-                                                                    <label>Postcode</label>
-                                                                    <input type="text" class="form-control form-control-solid form-control-lg" name="postcode" placeholder="Postcode" value="3000" />
-                                                                    <span class="form-text text-muted">Please enter your Postcode.</span>
-                                                                </div>
-                                                            </div>
-                                                            <!--end::Group-->
-                                                            <!--begin::Group-->
-                                                            <div class="col-xl-6">
-                                                                <div class="form-group">
-                                                                    <label>City</label>
-                                                                    <input type="text" class="form-control form-control-solid form-control-lg" name="city" placeholder="City" value="Melbourne" />
-                                                                    <span class="form-text text-muted">Please enter your City.</span>
-                                                                </div>
-                                                            </div>
-                                                            <!--end::Group-->
-                                                        </div>
-                                                        <!--end::Row-->
-
-                                                        <!--begin::Row-->
-                                                        <div class="row">
-                                                            <div class="col-xl-6">
-                                                                <!--begin::Group-->
-                                                                <div class="form-group">
-                                                                    <label>State</label>
-                                                                    <input type="text" class="form-control form-control-solid form-control-lg" name="state" placeholder="State" value="VIC"/>
-                                                                    <span class="form-text text-muted">Please enter your State.</span>
-                                                                </div>
-                                                                <!--end::Group-->
-                                                            </div>
-                                                            <div class="col-xl-6">
-                                                                <!--begin::Group-->
-                                                                <div class="form-group">
-                                                                    <label>Country</label>
-                                                                    <select name="country" class="form-control form-control-solid form-control-lg" >
-                                                                        <option value="">Select</option>
-                                                                        <option value="EH">Western Sahara</option>
-                                                                        <option value="YE">Yemen</option>
-                                                                        <option value="ZM">Zambia</option>
-                                                                        <option value="ZW">Zimbabwe</option>
-                                                                    </select>
-                                                                </div>
-                                                                <!--end::Group-->
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <!--end::Wizard Step 3-->
-
-                                                    <!--begin::Wizard Step 4-->--}}
+                                                    <!--begin::Wizard Step 4-->
                                                     <div class="my-5 step" data-wizard-type="step-content">
                                                         <h5 class="mb-10 font-weight-bold text-dark">Revisar informacion y enviar</h5>
 
@@ -363,9 +246,9 @@
                                                                 Detalles de tu cuenta:
                                                             </div>
                                                             <div class="line-height-xl">
-                                                                John Wick
-                                                                <br/> Telefono: +61412345678
-                                                                <br/> Email: johnwick@reeves.com
+                                                                Carlos Morales
+                                                                <br/> Telefono: +569 90929597
+                                                                <br/> Email: carlosm@gmail.com
                                                                 <br/> Estalecimiento: INSUCO
                                                                 <br/> Carreras: Administracion - Contabilidad
                                                                 <br/> Cursos: 3° medios
@@ -384,7 +267,7 @@
                                                         </div>
                                                         <div>
                                                             <button type="button" class="btn btn-success font-weight-bolder px-9 py-4" data-wizard-type="action-submit">
-                                                                Crear usuario
+                                                                Crear docente
                                                             </button>
 
                                                             <button type="button" id="next-step" class="btn btn-primary font-weight-bolder px-9 py-4" data-wizard-type="action-next">

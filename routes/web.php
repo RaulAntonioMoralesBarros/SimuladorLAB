@@ -17,8 +17,8 @@ Route::get('/', function () {
     return view('login');
 });
 
-Route::get('/Agregar_usuario', function () {
-    return view('app.docente.agregarUsuario');
+Route::get('/Agregar_docente', function () {
+    return view('app.docente.agregarDocente');
 });
 
 Route::get('/Email', function () {

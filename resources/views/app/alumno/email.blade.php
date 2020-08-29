@@ -756,8 +756,6 @@
                                         </div>
                                     </div>
 
-
-
                                 </div>
                                 <!--end::Messages-->
 
@@ -1071,7 +1069,7 @@
                                                 <th>Nombre</th>
                                                 <th>Cargo</th>
                                                 <th>Oficina</th>
-                                                <th>Enviar Mensaje
+                                                <th>Accion</th>
                                         </thead>
                                         <tbody>
                                             <tr>
