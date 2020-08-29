@@ -149,7 +149,7 @@
                                                             <label class="col-xl-3 col-lg-3 col-form-label">Contraseña</label>
                                                             <div class="col-lg-9 col-xl-9">
                                                                 <div class="input-group input-group-solid input-group-lg">
-                                                                    <input type="password" class="form-control form-control-solid form-control-lg" name="contraseña"  value=""/ required="required">
+                                                                    <input type="password" class="form-control form-control-solid form-control-lg" name="contraseña"  value=""/ >
                                                                 </div>
                                                             </div>
                                                         </div>

@@ -89,10 +89,10 @@ var KTAddUser = function () {
 					email: {
 						validators: {
 							notEmpty: {
-								message: 'Email is required'
+								message: 'El email es requerido'
 							},
 							emailAddress: {
-								message: 'The value is not a valid email address'
+								message: 'El valor no es una dirección de correo electrónico válida'
 							}
 						}
 					},
