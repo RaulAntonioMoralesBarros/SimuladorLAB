@@ -17,7 +17,7 @@ var KTAppInbox = function() {
             modules: {
                 toolbar: {}
             },
-            placeholder: 'Type message...',
+            placeholder: 'Escribir mensaje....',
             theme: 'snow'
         };
 
@@ -412,7 +412,7 @@ var KTAppInbox = function() {
                 var loading = new KTDialog({
                     'type': 'loader',
                     'placement': 'top center',
-                    'message': 'Loading ...'
+                    'message': 'Cargando ...'
                 });
                 loading.show();
 
@@ -444,7 +444,7 @@ var KTAppInbox = function() {
                 var loading = new KTDialog({
                     'type': 'loader',
                     'placement': 'top center',
-                    'message': 'Loading ...'
+                    'message': 'Cargando ...'
                 });
                 loading.show();
 
@@ -495,7 +495,7 @@ var KTAppInbox = function() {
                 var loading = new KTDialog({
                     'type': 'loader',
                     'placement': 'top center',
-                    'message': 'Loading ...'
+                    'message': 'Cargando ...'
                 });
 
                 loading.show();
@@ -552,7 +552,7 @@ var KTAppInbox = function() {
             // Remove reply form
             KTUtil.on(_composeEl, '[data-inbox="dismiss"]', 'click', function(e) {
                 swal.fire({
-                    text: "Are you sure to discard this message ?",
+                    text: "¿Estás seguro de descartar este mensaje?",
                     type: "danger",
                     buttonsStyling: false,
                     confirmButtonText: "Discard draft",

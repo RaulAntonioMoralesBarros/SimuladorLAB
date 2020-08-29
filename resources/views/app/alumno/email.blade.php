@@ -251,40 +251,40 @@
                                                 <ul class="navi py-3">
                                                     <li class="navi-item">
                                                         <a href="#" class="navi-link">
-                                                            <span class="navi-text">All</span>
+                                                            <span class="navi-text">Todos</span>
                                                         </a>
                                                     </li>
                                                     <li class="navi-item">
                                                         <a href="#" class="navi-link">
-                                                            <span class="navi-text">Read</span>
+                                                            <span class="navi-text">Leido</span>
                                                         </a>
                                                     </li>
                                                     <li class="navi-item">
                                                         <a href="#" class="navi-link">
-                                                            <span class="navi-text">Unread</span>
+                                                            <span class="navi-text">No leido</span>
                                                         </a>
                                                     </li>
                                                     <li class="navi-item">
                                                         <a href="#" class="navi-link">
-                                                            <span class="navi-text">Starred</span>
+                                                            <span class="navi-text">Destacar</span>
                                                         </a>
                                                     </li>
                                                     <li class="navi-item">
                                                         <a href="#" class="navi-link">
-                                                            <span class="navi-text">Unstarred</span>
+                                                            <span class="navi-text">No destacar</span>
                                                         </a>
                                                     </li>
                                                 </ul>
                                             </div>
                                         </div>
 
-                                        <span class="btn btn-clean btn-icon btn-sm mr-2" data-toggle="tooltip" title="Reload list">
+                                        <span class="btn btn-clean btn-icon btn-sm mr-2" data-toggle="tooltip" title="Recargar">
                                             <i class="ki ki-refresh icon-1x"></i>
                                         </span>
                                     </div>
 
                                     <div class="d-flex align-items-center mr-1 my-2">
-                                        <span class="btn btn-default btn-icon btn-sm mr-2" data-toggle="tooltip" title="Archive">
+                                        <span class="btn btn-default btn-icon btn-sm mr-2" data-toggle="tooltip" title="Archivar">
                                             <span class="svg-icon svg-icon-md">
                                                 <!--begin::Svg Icon | path:assets/media/svg/icons/Communication/Mail-opened.svg-->
                                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
@@ -312,7 +312,7 @@
                                             </span>                        
                                         </span>
 
-                                        <span class="btn btn-default btn-icon btn-sm mr-2" data-toggle="tooltip" title="Delete">
+                                        <span class="btn btn-default btn-icon btn-sm mr-2" data-toggle="tooltip" title="Eliminar">
                                             <span class="svg-icon svg-icon-md">
                                                 <!--begin::Svg Icon | path:assets/media/svg/icons/General/Trash.svg-->
                                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
@@ -326,7 +326,7 @@
                                             </span>                        
                                         </span>
 
-                                        <span class="btn btn-default btn-icon btn-sm mr-2" data-toggle="tooltip" title="Mark as read">
+                                        <span class="btn btn-default btn-icon btn-sm mr-2" data-toggle="tooltip" title="Marcar como leido">
                                             <span class="svg-icon svg-icon-md">
                                                 <!--begin::Svg Icon | path:assets/media/svg/icons/General/Duplicate.svg-->
                                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
@@ -340,19 +340,6 @@
                                             </span>                        
                                         </span>
 
-                                        <span class="btn btn-default btn-icon btn-sm mr-2" data-toggle="tooltip" title="Move">
-                                            <span class="svg-icon svg-icon-md">
-                                                <!--begin::Svg Icon | path:assets/media/svg/icons/Files/Media-folder.svg-->
-                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-                                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                        <rect x="0" y="0" width="24" height="24"/>
-                                                        <path d="M3.5,21 L20.5,21 C21.3284271,21 22,20.3284271 22,19.5 L22,8.5 C22,7.67157288 21.3284271,7 20.5,7 L10,7 L7.43933983,4.43933983 C7.15803526,4.15803526 6.77650439,4 6.37867966,4 L3.5,4 C2.67157288,4 2,4.67157288 2,5.5 L2,19.5 C2,20.3284271 2.67157288,21 3.5,21 Z" fill="#000000" opacity="0.3"/>
-                                                        <path d="M10.782158,17.5100514 L15.1856088,14.5000448 C15.4135806,14.3442132 15.4720618,14.0330791 15.3162302,13.8051073 C15.2814587,13.7542388 15.2375842,13.7102355 15.1868178,13.6753149 L10.783367,10.6463273 C10.5558531,10.489828 10.2445489,10.5473967 10.0880496,10.7749107 C10.0307022,10.8582806 10,10.9570884 10,11.0582777 L10,17.097272 C10,17.3734143 10.2238576,17.597272 10.5,17.597272 C10.6006894,17.597272 10.699033,17.566872 10.782158,17.5100514 Z" fill="#000000"/>
-                                                    </g>
-                                                </svg>
-                                                <!--end::Svg Icon-->
-                                            </span>                        
-                                        </span>
 
                                     </div>
                                 </div>
@@ -361,7 +348,7 @@
                                 <!--begin::Search-->
                                 <div class="col-xxl-3 d-flex order-1 order-xxl-2 align-items-center justify-content-center">
                                     <div class="input-group input-group-lg input-group-solid my-2">
-                                        <input type="text" class="form-control pl-4" placeholder="Search..." />
+                                        <input type="text" class="form-control pl-4" placeholder="Buscar..." />
                                         <div class="input-group-append">
                                             <span class="input-group-text pr-3" >
                                                 <span class="svg-icon svg-icon-lg">
@@ -384,23 +371,23 @@
                                 <!--begin::Pagination-->
                                 <div class="col-12 col-sm-6 col-xxl-4 order-2 order-xxl-3 d-flex align-items-center justify-content-sm-end text-right my-2">
                                     <!--begin::Per Page Dropdown-->
-                                    <div class="d-flex align-items-center mr-2" data-toggle="tooltip" title="Records per page">
+                                    <div class="d-flex align-items-center mr-2" data-toggle="tooltip" title="Mensajes por pagina">
                                         <span class="text-muted font-weight-bold mr-2" data-toggle="dropdown">1 - 50 of 235</span>
                                         <div class="dropdown-menu dropdown-menu-right p-0 m-0 dropdown-menu-sm">
                                             <ul class="navi py-3">
                                                 <li class="navi-item">
                                                     <a href="#" class="navi-link">
-                                                        <span class="navi-text">20 per page</span>
+                                                        <span class="navi-text">20 por pagina</span>
                                                     </a>
                                                 </li>
                                                 <li class="navi-item">
                                                     <a href="#" class="navi-link active">
-                                                        <span class="navi-text">50 par page</span>
+                                                        <span class="navi-text">50 por pagina</span>
                                                     </a>
                                                 </li>
                                                 <li class="navi-item">
                                                     <a href="#" class="navi-link">
-                                                        <span class="navi-text">100 per page</span>
+                                                        <span class="navi-text">100 por pagina</span>
                                                     </a>
                                                 </li>
                                             </ul>
@@ -409,106 +396,17 @@
                                     <!--end::Per Page Dropdown-->
 
                                     <!--begin::Arrow Buttons-->
-                                    <span class="btn btn-default btn-icon btn-sm mr-2" data-toggle="tooltip" title="Previose page">
+                                    <span class="btn btn-default btn-icon btn-sm mr-2" data-toggle="tooltip" title="Anterior">
                                         <i class="ki ki-bold-arrow-back icon-sm"></i>
                                     </span>
 
-                                    <span class="btn btn-default btn-icon btn-sm mr-2" data-toggle="tooltip" title="Next page">
+                                    <span class="btn btn-default btn-icon btn-sm mr-2" data-toggle="tooltip" title="Siguiente">
                                         <i class="ki ki-bold-arrow-next icon-sm"></i>
                                     </span>
                                     <!--end::Arrow Buttons-->
 
-                                    <!--begin::Sort Dropdown-->
-                                    <div class="dropdown mr-2" data-toggle="tooltip" title="Sort">
-                                        <span class="btn btn-default btn-icon btn-sm" data-toggle="dropdown">
-                                            <i class="flaticon2-console icon-1x"></i>
-                                        </span>
-                                        <div class="dropdown-menu dropdown-menu-right p-0 m-0 dropdown-menu-sm">
-                                            <ul class="navi py-3">
-                                                <li class="navi-item">
-                                                    <a href="#" class="navi-link active">
-                                                        <span class="navi-text">Newest</span>
-                                                    </a>
-                                                </li>
-                                                <li class="navi-item">
-                                                    <a href="#" class="navi-link">
-                                                        <span class="navi-text">Olders</span>
-                                                    </a>
-                                                </li>
-                                                <li class="navi-item">
-                                                    <a href="#" class="navi-link">
-                                                        <span class="navi-text">Unread</span>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <!--end::Sort Dropdown-->
+                    
 
-                                    <!--begin::Options Dropdown-->
-                                    <div class="dropdown" data-toggle="tooltip" title="Settings">
-                                        <span class="btn btn-default btn-icon btn-sm" data-toggle="dropdown">
-                                            <i class="ki ki-bold-more-hor icon-1x"></i>
-                                        </span>
-                                        <div class="dropdown-menu dropdown-menu-right p-0 m-0 dropdown-menu-md">
-                                            <!--begin::Navigation-->
-                                            <ul class="navi navi-hover py-5">
-                                                <li class="navi-item">
-                                                    <a href="#" class="navi-link">
-                                                        <span class="navi-icon"><i class="flaticon2-drop"></i></span>
-                                                        <span class="navi-text">New Group</span>
-                                                    </a>
-                                                </li>
-                                                <li class="navi-item">
-                                                    <a href="#" class="navi-link">
-                                                        <span class="navi-icon"><i class="flaticon2-list-3"></i></span>
-                                                        <span class="navi-text">Contacts</span>
-                                                    </a>
-                                                </li>
-                                                <li class="navi-item">
-                                                    <a href="#" class="navi-link">
-                                                        <span class="navi-icon"><i class="flaticon2-rocket-1"></i></span>
-                                                        <span class="navi-text">Groups</span>
-                                                        <span class="navi-link-badge">
-                                                        <span class="label label-light-primary label-inline font-weight-bold">new</span>
-                                                        </span>
-                                                    </a>
-                                                </li>
-                                                <li class="navi-item">
-                                                    <a href="#" class="navi-link">
-                                                    <span class="navi-icon"><i class="flaticon2-bell-2"></i></span>
-                                                    <span class="navi-text">Calls</span>
-                                                    </a>
-                                                </li>
-                                                <li class="navi-item">
-                                                    <a href="#" class="navi-link">
-                                                    <span class="navi-icon"><i class="flaticon2-gear"></i></span>
-                                                    <span class="navi-text">Settings</span>
-                                                    </a>
-                                                </li>
-
-                                                <li class="navi-separator my-3"></li>
-
-                                                <li class="navi-item">
-                                                    <a href="#" class="navi-link">
-                                                        <span class="navi-icon"><i class="flaticon2-magnifier-tool"></i></span>
-                                                        <span class="navi-text">Help</span>
-                                                    </a>
-                                                </li>
-                                                <li class="navi-item">
-                                                    <a href="#" class="navi-link">
-                                                        <span class="navi-icon"><i class="flaticon2-bell-2"></i></span>
-                                                        <span class="navi-text">Privacy</span>
-                                                        <span class="navi-link-badge">
-                                                        <span class="label label-light-danger label-rounded font-weight-bold">5</span>
-                                                        </span>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                            <!--end::Navigation-->
-                                        </div>
-                                    </div>
-                                    <!--end::Options Dropdown-->
                                 </div>
                                 <!--end::Pagination-->
                             </div>
@@ -518,56 +416,7 @@
                             <div class="card-body table-responsive px-0">
                                 <!--begin::Items-->
                                 <div class="list list-hover min-w-500px" data-inbox="list">
-                                    <!--begin::Item-->
-                                    <div class="d-flex align-items-start list-item card-spacer-x py-3" data-inbox="message">
-                                        <!--begin::Toolbar-->
-                                        <div class="d-flex align-items-center">
-                                            <!--begin::Actions-->
-                                            <div class="d-flex align-items-center mr-3" data-inbox="actions">
-                                                <label class="checkbox checkbox-inline checkbox-primary flex-shrink-0 mr-3">
-                                                    <input type="checkbox"/>
-                                                    <span></span>
-                                                </label>
-                                                <a href="#" class="btn btn-icon btn-xs btn-hover-text-warning active" data-toggle="tooltip" data-placement="right" title="Star">
-                                                    <i class="flaticon-star text-muted"></i>
-                                                </a>
-                                                <a href="#" class="btn btn-icon btn-xs text-hover-warning" data-toggle="tooltip" data-placement="right" title="Mark as important">
-                                                    <i class="flaticon-add-label-button text-muted"></i>
-                                                </a>
-                                            </div>
-                                            <!--end::Actions-->
-
-                                            <!--begin::Author-->
-                                            <div class="d-flex align-items-center flex-wrap w-xxl-200px mr-3" data-toggle="view">
-                                                <span class="symbol symbol-35 mr-3">
-                                                    <span class="symbol-label" style="background-image: url('assets/media/users/100_13.jpg')"></span>
-                                                </span>
-                                                <a href="#" class="font-weight-bold text-dark-75 text-hover-primary">Sean Paul</a>
-                                            </div>
-                                            <!--end::Author-->
-                                        </div>
-                                        <!--end::Toolbar-->
-
-                                        <!--begin::Info-->
-                                        <div class="flex-grow-1 mt-2 mr-2" data-toggle="view">
-                                            <div>
-                                                <span class="font-weight-bolder font-size-lg mr-2">Digital PPV Customer Confirmation - </span>
-                                                <span class="text-muted">Thank you for ordering UFC 240 Holloway vs Edgar Alternate camera angles...</span>
-                                            </div>
-                                            <div class="mt-2">
-                                                <span class="label label-light-primary font-weight-bold label-inline mr-1">inbox</span>
-                                                <span class="label label-light-danger font-weight-bold label-inline">task</span>
-                                            </div>
-                                        </div>
-                                        <!--end::Info-->
-
-                                        <!--begin::Datetime-->
-                                        <div class="mt-2 mr-3 font-weight-bolder w-50px text-right" data-toggle="view">
-                                            8:30 PM
-                                        </div>
-                                        <!--end::Datetime-->
-                                    </div>
-                                    <!--end::Item-->
+                            
 
                                     <!--begin::Item-->
                                     <div class="d-flex align-items-start list-item card-spacer-x py-3" data-inbox="message">
@@ -590,10 +439,10 @@
 
                                             <!--begin::Author-->
                                             <div class="d-flex align-items-center flex-wrap w-xxl-200px mr-3" data-toggle="view">
-                                                <div class="symbol symbol-light-primary symbol-35 mr-3">
-                                                    <span class="symbol-label font-weight-bolder">EF</span>
-                                                </div>
-                                                <a href="#" class="font-weight-bold text-dark-75 text-hover-primary">Enrico Fermi</a>
+                                                <span class="symbol symbol-35 mr-3">
+                                                    <span class="symbol-label" style="background-image: url('assets/media/users/100_13.jpg')"></span>
+                                                </span>
+                                                <a href="#" class="font-weight-bold text-dark-75 text-hover-primary">Carlos Morales</a>
                                             </div>
                                             <!--end::Author-->
                                         </div>
@@ -602,8 +451,9 @@
                                         <!--begin::Info-->
                                         <div class="flex-grow-1 mt-2 mr-2" data-toggle="view">
                                             <div>
-                                                <span class="font-weight-bolder font-size-lg mr-2">Your Order #224820998666029 has been Confirmed - </span>
-                                                <span class="text-muted">Your Order #224820998666029 has been placed on Saturday, 29 June</span>
+                                                <span class="font-weight-bolder font-size-lg mr-2">Envio boleta de honorarios mes junio - </span>
+                                            
+                                                <span class="text-muted">Buens tardes, con lo conversado y planificado envio la...</span>
                                             </div>
                                         </div>
                                         <!--end::Info-->
@@ -639,9 +489,9 @@
                                             <!--begin::Author-->
                                             <div class="d-flex align-items-center flex-wrap w-xxl-200px mr-3" data-toggle="view">
                                                 <div class="symbol symbol-light-primary symbol-35 mr-3">
-                                                    <span class="symbol-label font-weight-bolder">EF</span>
+                                                    <span class="symbol-label font-weight-bolder">GN</span>
                                                 </div>
-                                                <a href="#" class="font-weight-bold text-dark-75 text-hover-primary">Enrico Fermi</a>
+                                                <a href="#" class="font-weight-bold text-dark-75 text-hover-primary">Gloria Norambuena</a>
                                             </div>
                                             <!--end::Author-->
                                         </div>
@@ -650,8 +500,8 @@
                                         <!--begin::Info-->
                                         <div class="flex-grow-1 mt-2 mr-2" data-toggle="view">
                                             <div>
-                                                <span class="font-weight-bolder font-size-lg mr-2">Your Order #224820998666029 has been Confirmed - </span>
-                                                <span class="text-muted">Your Order #224820998666029 has been placed on Saturday, 29 June</span>
+                                                <span class="font-weight-bolder font-size-lg mr-2">Declaracion de renta mes agosto - </span>
+                                                <span class="text-muted">Estimada, necesito que me envie la declaracion de renta de Don...</span>
                                             </div>
                                         </div>
                                         <!--end::Info-->
@@ -723,33 +573,6 @@
                                         </span>                    
                                     </span>
 
-                                    <span class="btn btn-default btn-icon btn-sm mr-2" data-toggle="tooltip" title="Mark as read">
-                                        <span class="svg-icon svg-icon-md">
-                                            <!--begin::Svg Icon | path:assets/media/svg/icons/General/Duplicate.svg-->
-                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-                                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                    <rect x="0" y="0" width="24" height="24"/>
-                                                    <path d="M15.9956071,6 L9,6 C7.34314575,6 6,7.34314575 6,9 L6,15.9956071 C4.70185442,15.9316381 4,15.1706419 4,13.8181818 L4,6.18181818 C4,4.76751186 4.76751186,4 6.18181818,4 L13.8181818,4 C15.1706419,4 15.9316381,4.70185442 15.9956071,6 Z" fill="#000000" fill-rule="nonzero" opacity="0.3"/>
-                                                    <path d="M10.1818182,8 L17.8181818,8 C19.2324881,8 20,8.76751186 20,10.1818182 L20,17.8181818 C20,19.2324881 19.2324881,20 17.8181818,20 L10.1818182,20 C8.76751186,20 8,19.2324881 8,17.8181818 L8,10.1818182 C8,8.76751186 8.76751186,8 10.1818182,8 Z" fill="#000000"/>
-                                                </g>
-                                            </svg>
-                                            <!--end::Svg Icon-->
-                                        </span>                    
-                                    </span>
-
-                                    <span class="btn btn-default btn-icon btn-sm mr-2" data-toggle="tooltip" title="Move">
-                                        <span class="svg-icon svg-icon-md">
-                                            <!--begin::Svg Icon | path:assets/media/svg/icons/Files/Media-folder.svg-->
-                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-                                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                    <rect x="0" y="0" width="24" height="24"/>
-                                                    <path d="M3.5,21 L20.5,21 C21.3284271,21 22,20.3284271 22,19.5 L22,8.5 C22,7.67157288 21.3284271,7 20.5,7 L10,7 L7.43933983,4.43933983 C7.15803526,4.15803526 6.77650439,4 6.37867966,4 L3.5,4 C2.67157288,4 2,4.67157288 2,5.5 L2,19.5 C2,20.3284271 2.67157288,21 3.5,21 Z" fill="#000000" opacity="0.3"/>
-                                                    <path d="M10.782158,17.5100514 L15.1856088,14.5000448 C15.4135806,14.3442132 15.4720618,14.0330791 15.3162302,13.8051073 C15.2814587,13.7542388 15.2375842,13.7102355 15.1868178,13.6753149 L10.783367,10.6463273 C10.5558531,10.489828 10.2445489,10.5473967 10.0880496,10.7749107 C10.0307022,10.8582806 10,10.9570884 10,11.0582777 L10,17.097272 C10,17.3734143 10.2238576,17.597272 10.5,17.597272 C10.6006894,17.597272 10.699033,17.566872 10.782158,17.5100514 Z" fill="#000000"/>
-                                                </g>
-                                            </svg>
-                                            <!--end::Svg Icon-->
-                                        </span>                    
-                                    </span>
                                 </div>
                                 <!--end::Left-->
 
@@ -837,17 +660,6 @@
                             <div class="card-body p-0">
                                 <!--begin::Header-->
                                 <div class="d-flex align-items-center justify-content-between flex-wrap card-spacer-x py-5">
-                                    <!--begin::Title-->
-                                    <div class="d-flex align-items-center mr-2 py-2">
-                                        <div class="font-weight-bold font-size-h3 mr-3">Trip Reminder. Thank you for flying with us!</div>
-                                        <span class="label label-light-primary font-weight-bold label-inline mr-2">
-                                        inbox
-                                        </span>
-                                        <span class="label label-light-danger font-weight-bold label-inline">
-                                        important
-                                        </span>
-                                    </div>
-                                    <!--end::Title-->
 
                                     <!--begin::Toolbar-->
                                     <div class="d-flex py-2">
@@ -871,47 +683,45 @@
                                             </span>
                                             <div class="d-flex flex-column flex-grow-1 flex-wrap mr-2">
                                                 <div class="d-flex">
-                                                    <a href="#" class="font-size-lg font-weight-bolder text-dark-75 text-hover-primary mr-2">Chris Muller</a>
+                                                    <a href="#" class="font-size-lg font-weight-bolder text-dark-75 text-hover-primary mr-2">Carlos Morales</a>
                                                     <div class="font-weight-bold text-muted">
-                                                        <span class="label label-success label-dot mr-2"></span> 1 Day ago
+                                                        <span class="label label-success label-dot mr-2"></span> hace 1 dia
                                                     </div>
                                                 </div>
                                                 <div class="d-flex flex-column">
                                                     <div class="toggle-off-item">
                                                         <span class="font-weight-bold text-muted cursor-pointer" data-toggle="dropdown">
-                                                            to me
+                                                            a mi
                                                             <i class="flaticon2-down icon-xs ml-1 text-dark-50"></i>
                                                         </span>
                                                         <div class="dropdown-menu dropdown-menu-lg dropdown-menu-left p-5">
                                                             <table>
                                                                 <tr>
-                                                                    <td class="text-muted min-w-75px py-2">From</td>
-                                                                    <td>Mark Andre</td>
+                                                                    <td class="text-muted min-w-75px py-2">Para:</td>
+                                                                    <td>Juan Rodrigez</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td class="text-muted py-2">Date:</td>
+                                                                    <td class="text-muted py-2">Fecha:</td>
                                                                     <td>Jul 30, 2019, 11:27 PM</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td class="text-muted py-2">Subject:</td>
-                                                                    <td>Trip Reminder. Thank you for flying with us!</td>
+                                                                    <td class="text-muted py-2">Asunto:</td>
+                                                                    <td>Envio boleta de honorarios mes junio</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td class="text-muted py-2">Reply to:</td>
-                                                                    <td>mark.andre@gmail.com</td>
+                                                                    <td class="text-muted py-2">Responder a:</td>
+                                                                    <td>juan@gmail.com</td>
                                                                 </tr>
                                                             </table>
                                                         </div>
                                                     </div>
-                                                    <div class="text-muted font-weight-bold toggle-on-item" data-inbox="toggle">
-                                                        With resrpect, i must disagree with Mr.Zinsser. We all know the most part of important part....
-                                                    </div>
+                                                   
                                                 </div>
                                             </div>
 
                                             <div class="d-flex align-items-center">
                                                 <div class="font-weight-bold text-muted mr-2">
-                                                Jul 15, 2019, 11:19AM
+                                                Julio 15, 2019, 11:19AM
                                                 </div>
                                                 <div class="d-flex align-items-center" data-inbox="toolbar">
                                                     <span class="btn btn-clean btn-sm btn-icon mr-2" data-toggle="tooltip" data-placement="top" title="Star">
@@ -930,208 +740,23 @@
                                             </div>
                                         </div>
                                         <div class="card-spacer-x py-3 toggle-off-item">
-                                            <p>Hi Bob,</p>
+                                            <p>Buenas tardes,</p>
                                             <p>
-                                            With resrpect, i must disagree with Mr.Zinsser. We all know the most part of important part of
-                                            any article is the title.Without a compelleing title, your reader won't even get to the first
-                                            sentence.After the title, however, the first few sentences of your article are certainly
-                                            the most important part.
+                                            Con loconversado y planificado envio la boleta de honorarios.
                                             </p>
                                             <p>
-                                            Jornalists call this critical, introductory section the "Lede," and when bridge properly executed,
-                                            it's the that carries your reader from an headine try at attention-grabbing to the body of your
-                                            blog post, if you want to get it right on of these 10 clever ways to omen your next blog posr with a bang
+                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
                                             </p>
                                             <p>
-                                            Best regards,
+                                            Se despide,
                                             </p>
                                             <p>
-                                            Jason Muller
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                    <div class="cursor-pointer shadow-xs toggle-off" data-inbox="message">
-                                        <div class="d-flex align-items-center card-spacer-x py-6">
-                                            <span class="symbol symbol-50 mr-4" data-toggle="expand">
-                                            <span class="symbol-label" style="background-image: url('assets/media/users/100_11.jpg')"></span>
-                                            </span>
-                                            <div class="d-flex flex-column flex-grow-1 flex-wrap mr-2">
-                                                <div class="d-flex" data-toggle="expand">
-                                                    <a href="#" class="font-size-lg font-weight-bolder text-dark-75 text-hover-primary mr-2">Lina Nilson</a>
-                                                    <div class="font-weight-bold text-muted">
-                                                        <span class="label label-success label-dot mr-2"></span> 2 Day ago
-                                                    </div>
-                                                </div>
-                                                <div class="d-flex flex-column">
-                                                    <div class="toggle-off-item">
-                                                        <span class="font-weight-bold text-muted cursor-pointer" data-toggle="dropdown">
-                                                            to me
-                                                            <i class="flaticon2-down icon-xs ml-1 text-dark-50"></i>
-                                                        </span>
-                                                        <div class="dropdown-menu dropdown-menu-md dropdown-menu-left p-5">
-                                                            <table>
-                                                                <tr>
-                                                                    <td class="text-muted w-75px py-2">From</td>
-                                                                    <td>Mark Andre</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td class="text-muted py-2">Date:</td>
-                                                                    <td>Jul 30, 2019, 11:27 PM</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td class="text-muted py-2">Subject:</td>
-                                                                    <td>Trip Reminder. Thank you for flying with us!</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td class="text-muted py-2">Reply to:</td>
-                                                                    <td>mark.andre@gmail.com</td>
-                                                                </tr>
-                                                            </table>
-                                                        </div>
-                                                    </div>
-                                                    <div class="text-muted font-weight-bold toggle-on-item" data-toggle="expand">
-                                                        Jornalists call this critical, introductory section the "Lede," and when bridge properly executed....
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="d-flex align-items-center">
-                                                <div class="font-weight-bold text-muted mr-2" data-toggle="expand">
-                                                Jul 20, 2019, 03:20PM
-                                                </div>
-
-                                                <div class="d-flex align-items-center">
-                                                    <span class="btn btn-clean btn-sm btn-icon mr-2" data-toggle="tooltip" data-placement="top" title="Star">
-                                                        <i class="flaticon-star icon-1x text-warning"></i>
-                                                    </span>
-                                                    <span class="btn btn-clean btn-sm btn-icon mr-2" data-toggle="tooltip" data-placement="top" title="Mark as important">
-                                                        <i class="flaticon-add-label-button icon-1x"></i>
-                                                    </span>
-                                                    <span class="btn btn-clean btn-sm btn-icon mr-2" data-toggle="tooltip" data-placement="top" title="Reply">
-                                                        <i class="flaticon2-reply-1 icon-1x"></i>
-                                                    </span>
-                                                    <span class="btn btn-clean btn-sm btn-icon" data-toggle="tooltip" data-placement="top" title="Settings">
-                                                        <i class="flaticon-more icon-1x"></i>
-                                                    </span>
-                                                </div>
-                                            </div>
-
-                                        </div>
-
-                                        <div class="card-spacer-x py-3 toggle-off-item">
-                                            <p>Hi Bob,</p>
-                                            <p>
-                                            With resrpect, i must disagree with Mr.Zinsser. We all know the most part of important part of
-                                            any article is the title.Without a compelleing title, your reader won't even get to the first
-                                            sentence.After the title, however, the first few sentences of your article are certainly
-                                            the most important part.
-                                            </p>
-                                            <p>
-                                            Jornalists call this critical, introductory section the "Lede," and when bridge properly executed,
-                                            it's the that carries your reader from an headine try at attention-grabbing to the body of your
-                                            blog post, if you want to get it right on of these 10 clever ways to omen your next blog posr with a bang
-                                            </p>
-                                            <p>
-                                            Best regards,
-                                            </p>
-                                            <p>
-                                            Jason Muller
+                                            Juan
                                             </p>
                                         </div>
                                     </div>
 
 
-                                    <div class="cursor-pointer shadow-xs toggle-off" data-inbox="message">
-                                        <div class="d-flex align-items-center card-spacer-x py-6">
-                                            <span class="symbol symbol-50 mr-4" data-toggle="expand">
-                                                <span class="symbol-label" style="background-image: url('assets/media/users/100_14.jpg')"></span>
-                                            </span>
-                                            <div class="d-flex flex-column flex-grow-1 flex-wrap mr-2">
-                                                <div class="d-flex" data-toggle="expand">
-                                                    <a href="#" class="font-size-lg font-weight-bolder text-dark-75 text-hover-primary mr-2">Sean Stone</a>
-                                                    <div class="font-weight-bold text-muted">
-                                                        <span class="label label-success label-dot mr-2"></span> 1 Day ago
-                                                    </div>
-                                                </div>
-                                                <div class="d-flex flex-column">
-                                                    <div class="toggle-off-item">
-                                                        <span class="font-weight-bold text-muted cursor-pointer" data-toggle="dropdown">
-                                                            to me
-                                                            <i class="flaticon2-down icon-xs ml-1 text-dark-50"></i>
-                                                        </span>
-                                                        <div class="dropdown-menu dropdown-menu-md dropdown-menu-left p-5">
-                                                            <table>
-                                                                <tr>
-                                                                    <td class="text-muted w-75px py-2">From</td>
-                                                                    <td>Mark Andre</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td class="text-muted py-2">Date:</td>
-                                                                    <td>Jul 30, 2019, 11:27 PM</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td class="text-muted py-2">Subject:</td>
-                                                                    <td>Trip Reminder. Thank you for flying with us!</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td class="text-muted py-2">Reply to:</td>
-                                                                    <td>mark.andre@gmail.com</td>
-                                                                </tr>
-                                                            </table>
-                                                        </div>
-                                                    </div>
-                                                    <div class="text-muted font-weight-bold toggle-on-item" data-toggle="expand">
-                                                        With resrpect, i must disagree with Mr.Zinsser. We all know the most part of important part....
-                                                    </div>
-                                                </div>
-                                            </div>
-
-
-                                            <div class="d-flex align-items-center">
-                                                <div class="font-weight-bold text-muted mr-2" data-toggle="expand">
-                                                Jul 15, 2019, 11:19AM
-                                                </div>
-
-                                                <div class="d-flex align-items-center">
-                                                    <span class="btn btn-clean btn-sm btn-icon mr-2" data-toggle="tooltip" data-placement="top" title="Star">
-                                                        <i class="flaticon-star icon-1x"></i>
-                                                    </span>
-                                                    <span class="btn btn-clean btn-sm btn-icon mr-2" data-toggle="tooltip" data-placement="top" title="Mark as important">
-                                                        <i class="flaticon-add-label-button icon-1x"></i>
-                                                    </span>
-                                                    <span class="btn btn-clean btn-sm btn-icon mr-2" data-toggle="tooltip" data-placement="top" title="Reply">
-                                                        <i class="flaticon2-reply-1 icon-1x"></i>
-                                                    </span>
-                                                    <span class="btn btn-clean btn-sm btn-icon" data-toggle="tooltip" data-placement="top" title="Settings">
-                                                        <i class="flaticon-more icon-1x"></i>
-                                                    </span>
-                                                </div>
-                                            </div>
-
-                                        </div>
-
-                                        <div class="card-spacer-x py-3 toggle-off-item">
-                                            <p>Hi Bob,</p>
-                                            <p>
-                                            With resrpect, i must disagree with Mr.Zinsser. We all know the most part of important part of
-                                            any article is the title.Without a compelleing title, your reader won't even get to the first
-                                            sentence.After the title, however, the first few sentences of your article are certainly
-                                            the most important part.
-                                            </p>
-                                            <p>
-                                            Jornalists call this critical, introductory section the "Lede," and when bridge properly executed,
-                                            it's the that carries your reader from an headine try at attention-grabbing to the body of your
-                                            blog post, if you want to get it right on of these 10 clever ways to omen your next blog posr with a bang
-                                            </p>
-                                            <p>
-                                            Best regards,
-                                            </p>
-                                            <p>
-                                            Jason Muller
-                                            </p>
-                                        </div>
-                                    </div>
 
                                 </div>
                                 <!--end::Messages-->
@@ -1147,10 +772,10 @@
                                                     <!--begin::To-->
                                                     <div class="d-flex align-items-center border-bottom inbox-to px-8 min-h-50px">
                                                         <div class="text-dark-50 w-75px">
-                                                            To:
+                                                            Para:
                                                         </div>
                                                         <div class="d-flex align-items-center flex-grow-1">
-                                                            <input type="text" class="form-control border-0" name="compose_to" value="Chris Muller, Lina Nilson"/>
+                                                            <input type="text" class="form-control border-0" name="compose_to" value="Gloria Norambuena, Carlos Morales"/>
                                                         </div>
                                                         <div class="ml-2">
                                                             <span class="text-muted font-weight-bold cursor-pointer text-hover-primary mr-2" data-inbox="cc-show">Cc</span>
@@ -1189,7 +814,7 @@
 
                                                     <!--begin::Subject-->
                                                     <div class="border-bottom">
-                                                        <input class="form-control border-0 px-8 min-h-45px" name="compose_subject" placeholder="Subject"/>
+                                                        <input class="form-control border-0 px-8 min-h-45px" name="compose_subject" placeholder="Asunto"/>
                                                     </div>
                                                     <!--end::Subject-->
 
@@ -1230,32 +855,8 @@
                                                         <!--begin::Send-->
                                                         <div class="btn-group mr-4">
                                                             <span class="btn btn-primary font-weight-bold px-6">
-                                                                Send
+                                                                Enviar
                                                             </span>
-                                                            <span class="btn btn-primary font-weight-bold dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" role="button">
-                                                            </span>
-                                                            <div class="dropdown-menu dropdown-menu-sm dropup p-0 m-0 dropdown-menu-right">
-                                                                <ul class="navi py-3">
-                                                                    <li class="navi-item">
-                                                                        <a href="#" class="navi-link">
-                                                                            <span class="navi-icon"><i class="flaticon2-writing"></i></span>
-                                                                            <span class="navi-text">Schedule Send</span>
-                                                                        </a>
-                                                                    </li>
-                                                                    <li class="navi-item">
-                                                                        <a href="#" class="navi-link">
-                                                                            <span class="navi-icon"><i class="flaticon2-medical-records"></i></span>
-                                                                            <span class="navi-text">Save & archive</span>
-                                                                        </a>
-                                                                    </li>
-                                                                    <li class="navi-item">
-                                                                        <a href="#" class="navi-link">
-                                                                            <span class="navi-icon"><i class="flaticon2-hourglass-1"></i></span>
-                                                                            <span class="navi-text">Cancel</span>
-                                                                        </a>
-                                                                    </li>
-                                                                </ul>
-                                                            </div>
                                                         </div>
                                                         <!--end::Send-->
 
@@ -1307,7 +908,7 @@
                             <form id="kt_inbox_compose_form">
                                 <!--begin::Header-->    
                                 <div class="d-flex align-items-center justify-content-between py-5 pl-8 pr-5 border-bottom">
-                                    <h5 class="font-weight-bold m-0">Compose</h5>
+                                    <h5 class="font-weight-bold m-0">Redactar mensaje</h5>
                                     <div class="d-flex ml-2">
                                         <span class="btn btn-clean btn-sm btn-icon mr-2">
                                             <i class="flaticon2-arrow-1 icon-1x"></i>
@@ -1324,10 +925,10 @@
                                     <!--begin::To-->
                                     <div class="d-flex align-items-center border-bottom inbox-to px-8 min-h-45px">
                                         <div class="text-dark-50 w-75px">
-                                        To:
+                                        Para:
                                         </div>
                                         <div class="d-flex align-items-center flex-grow-1">
-                                            <input type="text" class="form-control border-0" name="compose_to" value="Chris Muller, Lina Nilson"/>
+                                            <input type="text" class="form-control border-0" name="compose_to" value="Gloria Norambuena, Carlos Morales"/>
                                         </div>
                                         <div class="ml-2">
                                             <span class="text-muted font-weight-bold cursor-pointer text-hover-primary mr-2" data-inbox="cc-show">Cc</span>
@@ -1366,7 +967,7 @@
 
                                     <!--begin::Subject-->
                                     <div class="border-bottom">
-                                        <input class="form-control border-0 px-8 min-h-45px" name="compose_subject" placeholder="Subject"/>
+                                        <input class="form-control border-0 px-8 min-h-45px" name="compose_subject" placeholder="Asunto"/>
                                     </div>
                                     <!--end::Subject-->
 
@@ -1407,32 +1008,9 @@
                                         <!--begin::Send-->
                                         <div class="btn-group mr-4">
                                             <span class="btn btn-primary font-weight-bold px-6">
-                                            Send
+                                            Enviar
                                             </span>
-                                            <span class="btn btn-primary font-weight-bold dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" role="button">
-                                            </span>
-                                            <div class="dropdown-menu dropdown-menu-sm dropup p-0 m-0 dropdown-menu-right">
-                                                <ul class="navi py-3">
-                                                    <li class="navi-item">
-                                                        <a href="#" class="navi-link">
-                                                            <span class="navi-icon"><i class="flaticon2-writing"></i></span>
-                                                            <span class="navi-text">Schedule Send</span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="navi-item">
-                                                        <a href="#" class="navi-link">
-                                                            <span class="navi-icon"><i class="flaticon2-medical-records"></i></span>
-                                                            <span class="navi-text">Save & archive</span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="navi-item">
-                                                        <a href="#" class="navi-link">
-                                                            <span class="navi-icon"><i class="flaticon2-hourglass-1"></i></span>
-                                                            <span class="navi-text">Cancel</span>
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </div>
+                                            
                                         </div>
                                         <!--end::Send-->
 
@@ -1492,14 +1070,14 @@
                                             <tr>
                                                 <th>Nombre</th>
                                                 <th>Cargo</th>
-                                                <th>Officina</th>
+                                                <th>Oficina</th>
                                                 <th>Enviar Mensaje
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>Tiger Nixon</td>
-                                                <td>System Architect</td>
-                                                <td>Edinburgh</td>
+                                                <td>Mario Rodriguez</td>
+                                                <td>Gerente</td>
+                                                <td>Linares</td>
                                                 <td>
                                                     <a href="#" class="btn btn-primary font-weight-bold text-uppercase py-4 px-6 text-center" data-toggle="modal" data-target="#kt_inbox_compose">
                                                     Enviar mensaje
@@ -1507,9 +1085,9 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>Garrett Winters</td>
-                                                <td>Accountant</td>
-                                                <td>Tokyo</td>
+                                                <td>Andrea Valenzuela</td>
+                                                <td>Contador auditor</td>
+                                                <td>Talca</td>
                                                 <td>
                                                     <a href="#" class="btn btn-primary font-weight-bold text-uppercase py-4 px-6 text-center" data-toggle="modal" data-target="#kt_inbox_compose">
                                                     Enviar mensaje
@@ -1517,22 +1095,20 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>Ashton Cox</td>
-                                                <td>Junior Technical Author</td>
-                                                <td>San Francisco</td>
+                                                <td>Juan Alfonso</td>
+                                                <td>Ingeniero informatico</td>
+                                                <td>Talca</td>
                                                 <td>
                                                     <a href="#" class="btn  btn-primary font-weight-bold text-uppercase py-4 px-6 text-center" data-toggle="modal" data-target="#kt_inbox_compose">
                                                     Enviar mensaje
                                                     </a>
                                                 </td>
                                             </tr>
-                                    
-                                    
                                         
                                             <tr>
-                                                <td>Michael Bruce</td>
-                                                <td>Javascript Developer</td>
-                                                <td>Singapore</td>
+                                                <td>Carlos Morales</td>
+                                                <td>Secretario</td>
+                                                <td>Curico</td>
                                                 <td>
                                                     <a href="#" class="btn  btn-primary font-weight-bold text-uppercase py-4 px-6 text-center" data-toggle="modal" data-target="#kt_inbox_compose">
                                                     Enviar mensaje
@@ -1540,9 +1116,9 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>Donna Snider</td>
-                                                <td>Customer Support</td>
-                                                <td>New York</td>
+                                                <td>Gloria Norambuena</td>
+                                                <td>Contador auditor</td>
+                                                <td>Talca</td>
                                                 <td>
                                                     <a href="#" class="btn  btn-primary font-weight-bold text-uppercase py-4 px-6 text-center" data-toggle="modal" data-target="#kt_inbox_compose">
                                                     Enviar mensaje
