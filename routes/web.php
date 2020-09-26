@@ -25,3 +25,15 @@ Route::get('/Email', function () {
     return view('app.alumno.email');
 });
 Route::post('/Antes_de_empezar', 'AccesoController@ingresar')->name('acceso.ingresar');
+
+Route::get('/Agregar_alumno', function () {
+    return view('app.agregar_alumno.agregarAlumno');
+});
+
+Route::get('/Participacion_docente', function() {
+    return view('app.participacion_docente.participacionDocente');
+});
+
+Route::get('/Chat', function () {
+    return view('app.chat_alumnos.chatAlumnos');
+});
