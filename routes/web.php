@@ -24,6 +24,7 @@ Route::get('/Agregar_docente', function () {
 Route::get('/Email', function () {
     return view('app.alumno.email');
 });
+
 Route::post('/Antes_de_empezar', 'AccesoController@ingresar')->name('acceso.ingresar');
 
 Route::get('/Agregar_alumno', function () {
@@ -36,4 +37,8 @@ Route::get('/Participacion_docente', function() {
 
 Route::get('/Chat', function () {
     return view('app.chat_alumnos.chatAlumnos');
+});
+
+Route::get('/Progreso', function () {
+    return view('app.tareas.progreso_tareas');
 });
