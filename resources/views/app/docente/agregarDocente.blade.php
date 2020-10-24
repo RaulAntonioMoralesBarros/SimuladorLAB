@@ -160,7 +160,8 @@
                                                             <div class="col-lg-9 col-xl-9">
                                                                 <div class="input-group input-group-solid input-group-lg">
                                                                     <div class="input-group-prepend"><span class="input-group-text"><i class="la la-phone"></i></span></div>
-                                                                    <input type="text" class="form-control form-control-solid form-control-lg" name="telefono" value="5678967456" placeholder="Phone" />
+                                                                    <input type="text" class="form-control form-control-solid form-control-lg" name="telefono" 
+                                                                    k placeholder="Phone" />
                                                                 </div>
                                                                 <span class="form-text text-muted">Ingrese un numero de telefono valido(ejemplo: 9 91110023).</span>
                                                             </div>
