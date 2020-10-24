@@ -42,3 +42,7 @@ Route::get('/Chat', function () {
 Route::get('/Progreso', function () {
     return view('app.tareas.progreso_tareas');
 });
+
+Route::get('/Listado_colegas', function(){
+    return view('app.listado_colegas.listadoColegas');
+});
