@@ -46,3 +46,11 @@ Route::get('/Progreso', function () {
 Route::get('/Listado_colegas', function(){
     return view('app.listado_colegas.listadoColegas');
 });
+
+Route::get('/consultas', function(){
+    return view('app.consultas.principal');
+});
+
+Route::get('/consultas_correo', function(){
+    return view('app.consultas.consultasPorCorreo');
+});
