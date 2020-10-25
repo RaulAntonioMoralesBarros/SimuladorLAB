@@ -24,6 +24,7 @@ Route::get('/Agregar_docente', function () {
 Route::get('/Email', function () {
     return view('app.alumno.email');
 });
+
 Route::post('/Antes_de_empezar', 'AccesoController@ingresar')->name('acceso.ingresar');
 
 Route::get('/Agregar_alumno', function () {
@@ -38,10 +39,27 @@ Route::get('/Chat', function () {
     return view('app.chat_alumnos.chatAlumnos');
 });
 
+<<<<<<< HEAD
 Route::get('/Calendario', function () {
     return view('app.alumno.calendario');
 });
 
 Route::get('/Grafico', function () {
     return view('app.alumno.graficoAvance');
+=======
+Route::get('/Progreso', function () {
+    return view('app.tareas.progreso_tareas');
+});
+
+Route::get('/Listado_colegas', function(){
+    return view('app.listado_colegas.listadoColegas');
+});
+
+Route::get('/consultas', function(){
+    return view('app.consultas.principal');
+});
+
+Route::get('/consultas_correo', function(){
+    return view('app.consultas.consultasPorCorreo');
+>>>>>>> c48ce67039823bbdaf962bf43175bbed71cd22fb
 });
