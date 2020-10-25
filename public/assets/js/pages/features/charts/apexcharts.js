@@ -962,10 +962,10 @@ var KTApexChartsDemo = function () {
 		var options = {
 			series: [44, 55, 13, 43, 22],
 			chart: {
-				width: 380,
+				width: 500,
 				type: 'pie',
 			},
-			labels: ['Team A', 'Team B', 'Team C', 'Team D', 'Team E'],
+			labels: ['RR.HH.', 'Adminstracion', 'Contabilidad', 'Resolucion de problemas', 'Tareas falltantes'],
 			responsive: [{
 				breakpoint: 480,
 				options: {

@@ -37,3 +37,11 @@ Route::get('/Participacion_docente', function() {
 Route::get('/Chat', function () {
     return view('app.chat_alumnos.chatAlumnos');
 });
+
+Route::get('/Calendario', function () {
+    return view('app.alumno.calendario');
+});
+
+Route::get('/Grafico', function () {
+    return view('app.alumno.graficoAvance');
+});

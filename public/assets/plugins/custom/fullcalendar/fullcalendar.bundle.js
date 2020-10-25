@@ -428,7 +428,7 @@ Docs & License: https://fullcalendar.io/
         });
     }
 
-    var DAY_IDS = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
+    var DAY_IDS = ['lunes', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
     // Adding
     function addWeeks(m, n) {
         var a = dateToUtcArray(m);
@@ -4577,31 +4577,27 @@ Docs & License: https://fullcalendar.io/
     }
 
     var RAW_EN_LOCALE = {
-        code: 'en',
+        code: 'es',
         week: {
-            dow: 0,
+            dow: 1,
             doy: 4 // 4 days need to be within the year to be considered the first week
         },
-        dir: 'ltr',
         buttonText: {
-            prev: 'prev',
-            next: 'next',
-            prevYear: 'prev year',
-            nextYear: 'next year',
-            year: 'year',
-            today: 'today',
-            month: 'month',
-            week: 'week',
-            day: 'day',
-            list: 'list'
+            prev: "Ant",
+            next: "Sig",
+            today: "Hoy",
+            month: "Mes",
+            week: "Semana",
+            day: "Día",
+            list: "Agenda"
         },
-        weekLabel: 'W',
-        allDayText: 'all-day',
-        eventLimitText: 'more',
-        noEventsMessage: 'No events to display'
+        weekText: "Sm",
+        allDayText: "Todo el día",
+        moreLinkText: "más",
+        noEventsText: "No hay eventos para mostrar"
     };
     function parseRawLocales(explicitRawLocales) {
-        var defaultCode = explicitRawLocales.length > 0 ? explicitRawLocales[0].code : 'en';
+        var defaultCode = explicitRawLocales.length > 0 ? explicitRawLocales[0].code : 'es';
         var globalArray = window['FullCalendarLocalesAll'] || []; // from locales-all.js
         var globalObject = window['FullCalendarLocales'] || {}; // from locales/*.js. keys are meaningless
         var allRawLocales = globalArray.concat(// globalArray is low prio
