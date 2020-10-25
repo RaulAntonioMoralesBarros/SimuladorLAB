@@ -39,14 +39,14 @@ Route::get('/Chat', function () {
     return view('app.chat_alumnos.chatAlumnos');
 });
 
-<<<<<<< HEAD
 Route::get('/Calendario', function () {
     return view('app.alumno.calendario');
 });
 
 Route::get('/Grafico', function () {
     return view('app.alumno.graficoAvance');
-=======
+});
+    
 Route::get('/Progreso', function () {
     return view('app.tareas.progreso_tareas');
 });
@@ -61,5 +61,4 @@ Route::get('/consultas', function(){
 
 Route::get('/consultas_correo', function(){
     return view('app.consultas.consultasPorCorreo');
->>>>>>> c48ce67039823bbdaf962bf43175bbed71cd22fb
 });

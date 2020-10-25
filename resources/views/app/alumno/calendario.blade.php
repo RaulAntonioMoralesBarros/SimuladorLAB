@@ -5,7 +5,8 @@
 @endsection
 
 @section('css_propios')
-    <link href="{{URL::asset('assets/plugins/custom/fullcalendar/fullcalendar.bundle.css?v=7.0.6')}}" />
+    <link href="{{URL::asset('assets/plugins/custom/fullcalendar/fullcalendar.bundle.css?v=7.0.6')}}"  rel="stylesheet" type="text/css" />
+
 @endsection
 
 @section('content')
